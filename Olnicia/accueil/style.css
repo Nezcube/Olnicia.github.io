@@ -1,0 +1,112 @@
+/* Le css des deux page donc touche pas a ça */
+
+body {
+    font-family:sans-serif;
+    text-align:center;
+    background: linear-gradient(to right,#181818,#282828);
+    color:white;
+}
+
+img {
+    width : 250px
+}
+
+.logo {
+    padding:30px;
+}
+
+
+h1 {
+    font-size: 8vh;
+    color:black;
+    text-decoration: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+p {
+    font-size: 4vh;
+}
+
+hr{
+    color:white;
+}
+
+/* Le css des boutons */
+
+.nav {
+    background:linear-gradient(to right,#404EED,#5865F2);
+    padding:10px;
+    border-radius: 10px;
+    color: white;
+    text-decoration:none;
+    transition: all 200ms;
+    border:solid white 2px;
+}
+
+.nav:hover {
+    background:#5865F2;
+    padding:15px;
+    border-radius: 30px;
+}
+
+.insta {
+    background:linear-gradient(to right, #C32AA3,#4C5FD7,#7232BD,#F46F30);
+    padding:10px;
+    border-radius: 10px;
+    color: white;
+    text-decoration:none;
+    transition: all 200ms;
+    border:solid white 2px;
+}
+
+.insta:hover {
+    background-color: lightskyblue;
+    padding:15px;
+    border-radius: 30px;
+}
+
+.download {
+    background:linear-gradient(to right,#F43E17,#F96546);
+    padding:10px;
+    border-radius: 10px;
+    color: white;
+    text-decoration:none;
+    transition: all 200ms;
+    border:solid white 2px;
+}
+
+.download:hover {
+    background-color:yellow;
+    padding:15px;
+    border-radius:30px;
+}
+
+.forum {
+    background: linear-gradient(to right,white, #c8ad7f);
+    padding:10px;
+    border-radius:10px;
+    color:black;
+    text-decoration: none;
+    transition: all 200ms;
+    border:solid black 2px;
+}
+
+.forum:hover {
+    padding:15px;
+    border-radius:30px;
+}
+
+/* La fin des boutons */
+
+/* Les trucs de la page du tuto seulement */
+
+.tuto {
+    padding: 30px;
+}
+
+.mod {
+    color:red;
+}
